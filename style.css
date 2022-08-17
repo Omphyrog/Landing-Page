@@ -165,7 +165,7 @@ button:hover {
   display: flex;
   max-width: 1000px;
   font-style: italic;
-  color: #1f2937;
+  color: #242c36;
 }
 
 .quote-section .blockquote .credit {
@@ -174,4 +174,35 @@ button:hover {
   margin-left: 40%;
   font-weight: bold;
   font-size: 30px;
+}
+
+.credit::before {
+  content: "\2014\0020";
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.ad .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 45%;
+  width: 80%;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.ad .container .cont {
+  color: white;
+  font-size: large;
+}
+
+#sign_up {
+  border: 3px solid white;
+  width: 200px;
 }
