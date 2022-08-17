@@ -148,19 +148,30 @@ button:hover {
 .quote-section {
   height: 500px;
   background-color: #e5e7eb;
+  font-size: 36px;
 }
 
-.quote-section .container {
+.quote-section .blockquote {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100%;
-  font-size: 36px;
+}
+
+.quote-section .blockquote .text {
+  display: flex;
+  max-width: 1000px;
   font-style: italic;
   color: #1f2937;
 }
 
-.quote-section .container span {
+.quote-section .blockquote .credit {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 40%;
   font-weight: bold;
+  font-size: 30px;
 }
