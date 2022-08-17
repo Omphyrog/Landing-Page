@@ -206,3 +206,17 @@ button:hover {
   border: 3px solid white;
   width: 200px;
 }
+
+.footer {
+  height: 100px;
+  background-color: #1f2937;
+  color: white;
+  font-size: large;
+}
+
+.footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
